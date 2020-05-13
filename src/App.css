@@ -1,38 +1,83 @@
-.App {
+.record-table{
+  
+}
+.App{
+  background-color: #F2F4F8;
+}
+.header{
+  background-color: #F2F4F8;
+}
+.record-table thead{
+  background-color: #E9ECF3;
+}
+/* .record-table tbody{
+  background-color: #F9FAFC;
+} */
+.record-table tbody td{ 
+  border: 1px solid #F3F3F3;
+  overflow-wrap: anywhere;
+  text-align: left;
+  padding: 0.3em 0.5em;
+  font-size: 0.89em;
+}
+.record-table tbody tr:nth-child(even){ 
+  background-color: #F9FAFC;
+}
+.record-table th{ 
+  border: 1px solid #F3F3F3;
+  overflow-wrap: anywhere;
+  text-align: left;
+  padding: 0.3em 0.5em;
+  width: 5%;
+  color: #1E1F1F;
+}
+.searchbar{
+  padding: 0.8em 0.6em;
+  border-radius: 10px;
+  border: 0;
+  font-size: 1.1em;
+  width: 30%;
+  cursor: pointer;
+}
+.searchbar:focus{
+  outline: 0;
+}
+.datesel input{
+  border: 1px solid #323232;
+  border-radius: 4px;
+  padding: 0.4em;
+}
+.applybtn{
+  background-color: #2B61AB;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0.4em 1.4em;
+}
+.searchicon{
+  right: 14px;
+  top: 15px;
+}
+.searchicon i{
+  color: #B1B1B3;
+  font-size: 1.2em;
+}
+
+body {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pagination-wrapper {
+  overflow-x:auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.pagination {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin:30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.data-slice {
+  margin-top: 15px;
 }
