@@ -1,6 +1,9 @@
 .record-table{
   
 }
+body{
+  overflow-y: hidden;
+}
 .App{
   background-color: #F2F4F8;
 }
@@ -64,9 +67,9 @@
   color: #B1B1B3;
   font-size: 1.2em;
 }
-
-body {
-  text-align: center;
+.auditPage{
+  height: 400px;
+  overflow: scroll;
 }
 
 .pagination-wrapper {

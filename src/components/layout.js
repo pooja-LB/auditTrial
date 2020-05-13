@@ -77,7 +77,7 @@ class Layout extends Component {
       
           return (
 
-            <div>
+            <div >
                 <div className="d-flex w-100 pb-4">
                     <div className="w-25 position-relative">
                     <span className="position-absolute searchicon"><i className="fa fa-search"></i></span>
@@ -106,7 +106,7 @@ class Layout extends Component {
                     </div>
                 </div>
 
-                        
+                    <div className="auditPage">
                 <table className="record-table">
                     <thead className="">
                         <tr>
@@ -127,6 +127,7 @@ class Layout extends Component {
                         {items}
                     </tbody>
                 </table>
+                </div>
 
                 <div className="pagination-wrapper">
                         
